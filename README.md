@@ -5,6 +5,8 @@ For big homework I choose these datasets: Wine, Wine_quality, Adult. Result of c
 Dataset | Wine | Wine_quality | Adult | 
 --- | --- | --- | --- |
 F1-Score | 0.92 | 0.79 | 0.66 | 
+
+For every dataset test size is 0.3.
 ## First dataset: Wine
 ### Description
 Dataset contains information about the chemical composition of three types of wine. Target feature here is origin of wine, which contains of three classes.
