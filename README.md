@@ -1,7 +1,7 @@
 # Repository description
 This repository contain big homework for OSDA and first task from fourth homework.
 # Big homework description
-For big homework I choose these datasets: Wine, Wine_quality, Adult. Result of classification by NeuralFCA is:
+For big homework I choose these datasets: Wine, Wine_quality, Adult. Result of classification by NeuralFCA and baselines is:
 Model | Dataset | Accuracy | 
 --- | --- | --- |
 DecisionTreeClassifier | Wine | 0.96 | 
