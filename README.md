@@ -1,10 +1,11 @@
-# Description
+# Repository description
 This repository contain big homework for OSDA and first task from fourth homework.
 # Big homework description
 For big homework I choose these datasets: Wine, Wine_quality, Adult. Result of classification by NeuralFCA is:
 Dataset | Wine | Wine_quality | Adult | 
 --- | --- | --- | --- |
 F1-Score | 0.92 | 0.79 | 0.66 | 
+For every dataset test size is 0.3.
 ## First dataset: Wine
 ### Description
 Dataset contains information about the chemical composition of three types of wine. Target feature here is origin of wine, which contains of three classes.
