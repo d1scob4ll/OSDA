@@ -2,9 +2,27 @@
 This repository contain big homework for OSDA and first task from fourth homework.
 # Big homework description
 For big homework I choose these datasets: Wine, Wine_quality, Adult. Result of classification by NeuralFCA is:
-Dataset | Wine | Wine_quality | Adult | 
---- | --- | --- | --- |
-F1-Score | 0.92 | 0.79 | 0.66 | 
+Model | Dataset | Accuracy | 
+--- | --- | --- |
+DecisionTreeClassifier | Wine | 0.96 | 
+RandomForestClassifier | Wine | 0.96 | 
+XGBClassifier | Wine | 0.97 | 
+KNeighborsClassifier | Wine | 0.96 | 
+LogisticRegression | Wine | 0.96 | 
+**NeuralFCA** | Wine | 0.92 | 
+DecisionTreeClassifier | Wine_quality | 0.73 | 
+RandomForestClassifier | Wine_quality | 0.74 | 
+XGBClassifier | Wine_quality | 0.74 | 
+KNeighborsClassifier | Wine_quality | 0.72 | 
+LogisticRegression | Wine_quality | 0.72 | 
+**NeuralFCA** | Wine_quality | 0.79 | 
+DecisionTreeClassifier | Adult | 0.63 | 
+RandomForestClassifier | Adult | 0.63 | 
+XGBClassifier | Adult | 0.63 | 
+KNeighborsClassifier | Adult | 0.60 | 
+LogisticRegression | Adult | 0.62 | 
+**NeuralFCA** | Adult | 0.66 | 
+
 
 For every dataset test size is 0.3.
 ## First dataset: Wine
